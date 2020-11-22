@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -16,6 +17,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #66BFBF;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -23,13 +25,23 @@ h3 {
   color: #11999E;
 }
 
+p {
+  line-height: 2;
+}
+
+.emailme {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .top-container {
   background-color:#E4F5F9;
   position: relative;
   padding-top: 100px;
 }
-.middle-container {
 
+.middle-container {
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -55,16 +67,21 @@ h3 {
   text-decoration: underline;
 }
 
+.bio {
+  width: 50%;
+  margin: auto;
+}
+
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .profilepic {
@@ -92,18 +109,15 @@ h3 {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 hr {
-  border-top: dotted 0;
+  border-top: none;
   border-bottom: dotted 5px #EAF6F6;
-  border-left: dotted 0;
-  border-right: dotted 0;
   size: 5;
   text-align: center;
-  width: 50px;
-  margin-top: 40px;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .BUTTON_KKT {
